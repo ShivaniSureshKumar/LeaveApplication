@@ -1,0 +1,14 @@
+{
+  "name": "leaveapplication",
+  "version": "1.0.0",
+  "description": "Leave Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shivani",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+    <head>
+        <title>
+            Leave Application
+        </title>
+        <style>
+
+            h1, h3 {
+
+                font-family: 'Alegreya Sans', sans-serif !important;
+            }
+
+        </style>
+        <link rel = "stylesheet" href = "./index.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,700&family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <body style = "background-color: #39383d;">
+            <div style="
+            display: flex;
+        ">
+                <!-- For holding IMage -->
+                <div>
+                    <img style="width: 659px;" src = "./pp.jpeg" alt = "logo" />
+                </div>
+
+                <!-- Main Form -->
+
+                <div >
+
+                    <div id="content" class="pmd-content admin section-container">
+                        <!-- Title -->
+                        <h1 style = "color: antiquewhite;    position: absolute;
+                        top: 47px;
+                        left: 27px;
+                    ">Tech Analogy</h1>
+                        <h3 style = "color: antiquewhite;">Leave Application</h3>
+                        <!-- End Title -->
+                        
+                       
+                    
+                        <div class="page-content">
+                            <!-- Apply Leave Form -->
+                            <div style = "margin-top: 32px;" class="card pmd-card single-col-form">
+                                <form id="apply-leave" method="post" action="" novalidate="novalidate">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="form-group pmd-textfield pmd-textfield-floating-label">
+                                                    <label for="leave-type">Leave Type</label>
+                                                    <select name="leave-type" id="leave-type" class="form-control" title="Please select a Leave Type" required="">
+                                                        <option></option>
+                                                        <option>Sick Leave</option>
+                                                        <option>Casual Leave</option>
+                                                    </select><span class="pmd-textfield-focused"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group pmd-textfield pmd-textfield-floating-label pmd-textfield-floating-label-completed">
+                                                    <label class="control-label" for="datepickerstart">Start Date</label>
+                                                    <input type="text" class="form-control is-valid" id="datepickerstart" name="datepickerstart" aria-invalid="false"><span class="pmd-textfield-focused"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group pmd-textfield pmd-textfield-floating-label">
+                                                    <label class="control-label" for="datepickerend">End Date</label>
+                                                    <input type="text" class="form-control" id="datepickerend" name="datepickerend"><span class="pmd-textfield-focused"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-group pmd-textfield pmd-textfield-floating-label">
+                                                    <label>Reason</label>
+                                                    <textarea class="form-control" id="reason" name="reason"></textarea><span class="pmd-textfield-focused"></span>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <button type="submit" class="btn btn-primary pmd-ripple-effect pmd-btn-raised" name="applyleave" value="Apply Leave">Apply Leave</button> <a href="leave.html" class="btn btn-outline-secondary pmd-ripple-effect">Cancel</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </body>
+        <script src = "./index.js"></script>
+    </head>
+</html>
